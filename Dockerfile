@@ -1,8 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Erik Osterman <e@osterman.com>
-
-ENV NGINX_VERSION tengine-2.1.0
+ENV NGINX_VERSION tengine-2.1.2
 
 ENV   DEBIAN_FRONTEND noninteractive
 ENV   LANGUAGE en_US.UTF-8
